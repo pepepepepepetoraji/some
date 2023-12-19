@@ -11,14 +11,13 @@ Matplotlib
 bash
 Copy code
 pip install pandas seaborn matplotlib
+
 使用方法
 まず、必要なライブラリをインポートします。
 次に、3つの異なるCSVファイル（加速度データを含む）を読み込みます。ファイルパスはそれぞれの環境に合わせて変更してください。
 各データフレームにソース識別子を追加し、データを結合します。
 最後に、Seabornを使用してデータを可視化します。
-スクリプト
-python
-Copy code
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
