@@ -28,8 +28,6 @@ pip install pandas seaborn matplotlib
 3. **データの可視化：**
    Seabornを使用してデータをプロットします。
 
-### スクリプトの例
-
 ```python
 import pandas as pd
 import seaborn as sns
@@ -57,3 +55,6 @@ plt.xlabel(x_col)
 plt.ylabel(y_col)
 plt.title('加速度計データの時系列プロット')
 plt.show()
+
+if __name__ == "__main__":
+    main()
